@@ -20,5 +20,7 @@ node real_trade.js
 3. trash readme.md
 ## ideas to solve
 1. intermarket
+  - testing intermarket virtual trade in multi process
+  - testing ML(using tensorflow) and read data
 2. change cnt value
 3. relax
