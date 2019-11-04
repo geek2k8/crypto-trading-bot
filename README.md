@@ -15,12 +15,12 @@ node real_trade.js
 - welcome
 ***
 ## Problems
-1. radical down trending
-2. radical up trending
-3. trash readme.md
+- 1.radical down trending
+- 2.radical up trending
+- 3.trash readme.md
 ## ideas to solve
-1. intermarket
-  1. testing intermarket virtual trade in multi process
-  2. testing ML(using tensorflow) and read data
-2. change cnt value
-3. relax
+- 1.intermarket
+  - 1.testing intermarket virtual trade in multi process
+  - 2.testing ML(using tensorflow) and read data
+- 2.change cnt value
+- 3.relax
