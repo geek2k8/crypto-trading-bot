@@ -13,3 +13,12 @@ node real_trade.js
 - if you want test, node trade_virtual.js
 ## Contribute
 - welcome
+***
+## Problems
+1. radical down trending
+2. radical up trending
+3. trash readme.md
+## ideas to solve
+1-1. intermarket
+2-1. change cnt value
+3-1. relax
