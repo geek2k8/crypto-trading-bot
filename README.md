@@ -22,6 +22,23 @@ const tick_options = {
 	qs: { markets: 'KRW-XRP'},
 };
 ```
+```javascript
+const bid_body = {
+	market: 'KRW-XRP',
+	side: 'bid',
+	volume: JSON.stringify(volume_bidding),
+	price: JSON.stringify(Bought_price),
+	ord_type: 'limit',
+};
+
+const ask_body = {
+	market: 'KRW-XRP',
+	side: 'ask',
+	volume: JSON.stringify(Holding_vol),
+	price: null,
+	ord_type: 'market',
+}
+```
 - run it
 ```javascript
 node real_trade.js
