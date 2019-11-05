@@ -1,27 +1,45 @@
 # crypto-trading-bot
-## What is it?
+## What is this?
 - crypto market trading bot
 - auto trading by the rule : buy low sell high
 ## How to run it?
 - install nodejs
 - install packages
 - input your secret key, access key
+```javascript
+const access_key = 'YOUR ACCESS KEY';
+const secret_key = 'YOUR SECRET KEY';
+```
 - input your initial capital
+```javascript
+let Initial_KRW_remain = 420000; // YOUR INITIAL CAPITAL : direct recog.
+```
 - input market code
+```javascript
+const tick_options = {
+  method: 'GET',
+	url: 'https://api.upbit.com/v1/ticker',
+	qs: { markets: 'KRW-XRP'},
+};
+```
+- run it
 ```javascript
 node real_trade.js
 ```
-- if you want test, node trade_virtual.js
+## you wanna simulate?
+```javascript
+node trade_virtual.js
+```
 ## Contribute
 - welcome
 ***
-## Problems
+## Problems and ideas to solve
+- make package.json
 - slump trending
+  - intermarket
+    - testing intermarket virtual trade in multi process
+    - testing ML(using tensorflow) and read data
 - soaring trending
+  - change cnt value
 - trash readme.md
-## ideas to solve
-- intermarket
-  - testing intermarket virtual trade in multi process
-  - testing ML(using tensorflow) and read data
-- change cnt value
-- relax
+  - relax
