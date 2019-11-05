@@ -7,6 +7,7 @@
 - install packages
 - input your secret key, access key
 - input your initial capital
+- 
 ```javascript
 node real_trade.js
 ```
@@ -15,12 +16,12 @@ node real_trade.js
 - welcome
 ***
 ## Problems
-- 1.radical down trending
-- 2.radical up trending
-- 3.trash readme.md
+- slump trending
+- soaring trending
+- trash readme.md
 ## ideas to solve
-- 1.intermarket
-  - 1.testing intermarket virtual trade in multi process
-  - 2.testing ML(using tensorflow) and read data
-- 2.change cnt value
-- 3.relax
+- intermarket
+  - testing intermarket virtual trade in multi process
+  - testing ML(using tensorflow) and read data
+- change cnt value
+- relax
