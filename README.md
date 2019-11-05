@@ -7,7 +7,7 @@
 - install packages
 - input your secret key, access key
 - input your initial capital
-- 
+- input market code
 ```javascript
 node real_trade.js
 ```
