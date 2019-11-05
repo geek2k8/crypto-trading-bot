@@ -60,3 +60,6 @@ node trade_virtual.js
   - change cnt value
 - trash readme.md
   - relax
+## Conclusion
+- no solution.
+- bye bye
